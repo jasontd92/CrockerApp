@@ -49,7 +49,9 @@ public class DeviceScanActivity extends ListActivity {
     private BluetoothAdapter mBluetoothAdapter;
     private boolean mScanning;
     private Handler mHandler;
-    private static final String OUR_MAC_ADDRESS = "4C:3F:D3:02:AF:5F"; // Backup 4C:3F:D3:02:AB:AB
+    private static final String TEST_MAC_ADDRESS = "4C:3F:D3:02:AF:5F";
+    private static final String OUR_MAC_ADDRESS = "4C:3F:D3:02:AB:AB";
+    private static final String OUR_BACKUP_MAC_ADDRESS = "4C:3F:D3:02:AF:5F";//4C:3F:D3:02:AF:5F// Backup 4C:3F:D3:02:AB:AB
 
     private static final int REQUEST_ENABLE_BT = 1;
     // Stops scanning after 10 seconds.
@@ -208,8 +210,12 @@ public class DeviceScanActivity extends ListActivity {
         }
 
         public void addDevice(BluetoothDevice device) {
-            if( (!mLeDevices.contains(device)) && (device.getAddress().equals(OUR_MAC_ADDRESS)) ) {
-                mLeDevices.add(device);
+            if(!mLeDevices.contains(device) ) {
+                //if ((device.getAddress().equals(OUR_MAC_ADDRESS)) || (device.getAddress().equals(OUR_BACKUP_MAC_ADDRESS))) {
+                //if (device.getAddress().equals(TEST_MAC_ADDRESS)){
+                if (mLeDevices.size() <= 1){
+                    mLeDevices.add(device);
+                }
             }
         }
 

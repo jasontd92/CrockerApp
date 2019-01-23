@@ -7,53 +7,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d19e3b-f225-4277-8950-b034d82221c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/color-v21_abc_btn_colored_borderless_text_material.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/color_abc_btn_colored_borderless_text_material.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/color_abc_btn_colored_text_material.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/color_abc_tint_btn_checkable.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/color_abc_tint_default.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/color_abc_tint_edittext.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/color_abc_tint_seek_thumb.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/color_abc_tint_spinner.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/color_abc_tint_switch_track.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/drawable_abc_btn_colored_material.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/drawable_abc_edit_text_material.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/layout-v16_notification_template_custom_big.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/layout_notification_action.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/layout_notification_action_tombstone.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/androidTest/debug/layout_notification_template_icon_group.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/color-v21_abc_btn_colored_borderless_text_material.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/color_abc_btn_colored_borderless_text_material.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/color_abc_btn_colored_text_material.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/color_abc_tint_btn_checkable.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/color_abc_tint_default.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/color_abc_tint_seek_thumb.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/color_abc_tint_spinner.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/color_abc_tint_switch_track.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/drawable_abc_btn_colored_material.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout_notification_action.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/14.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
@@ -62,7 +121,26 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/compat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/compat/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/compat/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/coreui/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/coreui/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/coreui/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/coreutils/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/coreutils/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/coreutils/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/fragment/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/fragment/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/fragment/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/graphics/drawable/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/graphics/drawable/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/mediacompat/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/mediacompat/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v13/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v13/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v13/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v13/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v4/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v4/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v4/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$3.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceControlActivity$3.class" />
@@ -74,9 +152,37 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceScanActivity$LeDeviceListAdapter.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceScanActivity$LeDeviceListAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceScanActivity$ViewHolder.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceScanActivity$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceScanActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/DeviceScanActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$integer.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$layout.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$menu.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$string.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$style.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$styleable.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/bluetoothlegatt/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/debug/zip-cache/wEHRQ6nRwCrxZMIA3Fml0g910Nc=" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/debug/zip-cache/wEHRQ6nRwCrxZMIA3Fml0g910Nc=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/androidTest/debug/resources-debugAndroidTest.ap_" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/androidTest/debug/resources-debugAndroidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout_gatt_services_characteristics.xml.flat" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout_gatt_services_characteristics.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/values_values.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/compat/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/compat/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/compat/R$string.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/compat/R$string.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/coreui/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/coreui/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/coreui/R$string.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/coreui/R$string.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/coreutils/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/coreutils/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/coreutils/R$string.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/coreutils/R$string.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/fragment/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/fragment/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/fragment/R$string.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/fragment/R$string.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/graphics/drawable/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/graphics/drawable/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/graphics/drawable/R$string.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/graphics/drawable/R$string.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/graphics/drawable/animated/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/graphics/drawable/animated/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/graphics/drawable/animated/R$string.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/graphics/drawable/animated/R$string.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/mediacompat/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/mediacompat/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/mediacompat/R$string.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/mediacompat/R$string.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/v13/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/v13/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/v13/R$string.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/v13/R$string.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/v4/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/v4/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/v4/R$string.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/v4/R$string.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/v7/appcompat/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/v7/appcompat/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/v7/appcompat/R$string.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/android/support/v7/appcompat/R$string.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/DeviceControlActivity$1.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/DeviceControlActivity$1.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/DeviceControlActivity$2.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/DeviceControlActivity$2.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/DeviceControlActivity$3.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/DeviceControlActivity$3.dex" />
@@ -88,29 +194,39 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/DeviceScanActivity$LeDeviceListAdapter.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/DeviceScanActivity$LeDeviceListAdapter.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/DeviceScanActivity$ViewHolder.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/DeviceScanActivity$ViewHolder.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/DeviceScanActivity.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/DeviceScanActivity.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$id.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$integer.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$integer.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$layout.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$layout.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$menu.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$menu.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$string.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$string.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$style.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$style.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$styleable.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15/com/example/android/bluetoothlegatt/R$styleable.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/outputs/apk/debug/Application-debug.apk" afterPath="$PROJECT_DIR$/Application/build/outputs/apk/debug/Application-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build.gradle" afterPath="$PROJECT_DIR$/Application/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/compat/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/compat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/coreui/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/coreutils/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/fragment/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/fragment/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/graphics/drawable/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/graphics/drawable/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/mediacompat/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/mediacompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/v13/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/v13/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/v4/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/v4/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/com/example/android/bluetoothlegatt/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/com/example/android/bluetoothlegatt/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/blame/res/debug/multi-v2/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/blame/res/debug/single/debug.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/manifests/full/debug/output.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/manifests/full/debug/output.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/manifests/instant-run/debug/output.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/manifests/instant-run/debug/output.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/output.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/output.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/__content__.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/outputs/apk/debug/output.json" afterPath="$PROJECT_DIR$/Application/build/outputs/apk/debug/output.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/Application/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/res/layout/gatt_services_characteristics.xml" afterPath="$PROJECT_DIR$/Application/src/main/res/layout/gatt_services_characteristics.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -134,24 +250,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BluetoothLeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/BluetoothLeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4296">
-              <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+      <file leaf-file-name="actionbar_indeterminate_progress.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/actionbar_indeterminate_progress.xml">
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceScanActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeviceScanActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="58" column="53" lean-forward="true" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+            <state relative-caret-position="351">
+              <caret line="219" column="9" lean-forward="false" selection-start-line="219" selection-start-column="9" selection-end-line="219" selection-end-column="9" />
               <folding>
-                <element signature="e#6988#7249#0" expanded="true" />
-                <element signature="e#7248#7249#0" expanded="true" />
+                <element signature="e#7156#7417#0" expanded="true" />
+                <element signature="e#7416#7417#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,6 +281,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
               <caret line="118" column="69" lean-forward="false" selection-start-line="118" selection-start-column="69" selection-end-line="118" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listitem_device.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/listitem_device.xml">
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -193,62 +325,69 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceControlActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3413">
-              <caret line="351" column="39" lean-forward="false" selection-start-line="351" selection-start-column="39" selection-end-line="351" selection-end-column="39" />
+            <state relative-caret-position="429">
+              <caret line="134" column="45" lean-forward="false" selection-start-line="134" selection-start-column="45" selection-end-line="134" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2651#2691#0" expanded="true" />
-                <element signature="e#4314#5435#0" expanded="true" />
-                <element signature="e#4624#4642#0" expanded="true" />
-                <element signature="e#4845#4866#0" expanded="true" />
-                <element signature="e#5434#5435#0" expanded="true" />
-                <element signature="e#5826#7518#0" expanded="true" />
-                <element signature="e#7517#7518#0" expanded="true" />
-                <element signature="e#7651#7667#0" expanded="true" />
-                <element signature="e#10512#10660#0" expanded="true" />
-                <element signature="e#10659#10660#0" expanded="true" />
-                <element signature="e#14977#15027#0" expanded="true" />
-                <element signature="e#15065#15122#0" expanded="true" />
-                <element signature="e#15198#15223#0" expanded="true" />
-                <element signature="e#15335#15371#0" expanded="true" />
-                <element signature="e#15646#15662#0" expanded="true" />
-                <element signature="e#15776#15801#0" expanded="true" />
-                <element signature="e#16020#16049#0" expanded="true" />
-                <element signature="e#16683#16699#0" expanded="true" />
+                <element signature="e#1257#1287#0" expanded="true" />
+                <element signature="e#3132#3149#0" expanded="true" />
+                <element signature="e#3858#3871#0" expanded="true" />
+                <element signature="e#4205#4219#0" expanded="true" />
+                <element signature="e#4555#4572#0" expanded="true" />
+                <element signature="e#5325#5339#0" expanded="true" />
+                <element signature="e#5676#5692#0" expanded="true" />
+                <element signature="e#6028#6043#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/build.gradle">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="738">
+              <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
+      <file leaf-file-name="DeviceControlActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="342">
+              <caret line="65" column="63" lean-forward="true" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
+              <folding>
+                <element signature="e#3338#3378#0" expanded="true" />
+                <element signature="e#5001#6101#0" expanded="true" />
+                <element signature="e#5311#5329#0" expanded="true" />
+                <element signature="e#5532#5553#0" expanded="true" />
+                <element signature="e#6100#6101#0" expanded="true" />
+                <element signature="e#6492#8184#0" expanded="true" />
+                <element signature="e#8183#8184#0" expanded="true" />
+                <element signature="e#8317#8333#0" expanded="true" />
+                <element signature="e#9806#9951#0" expanded="true" />
+                <element signature="e#9950#9951#0" expanded="true" />
+                <element signature="e#9987#10134#0" expanded="true" />
+                <element signature="e#10133#10134#0" expanded="true" />
+                <element signature="e#10173#10323#0" expanded="true" />
+                <element signature="e#10322#10323#0" expanded="true" />
+                <element signature="e#10359#10506#0" expanded="true" />
+                <element signature="e#10505#10506#0" expanded="true" />
+                <element signature="e#10544#10693#0" expanded="true" />
+                <element signature="e#10692#10693#0" expanded="true" />
+                <element signature="e#10730#10878#0" expanded="true" />
+                <element signature="e#10877#10878#0" expanded="true" />
+                <element signature="e#13117#13265#0" expanded="true" />
+                <element signature="e#13264#13265#0" expanded="true" />
+                <element signature="e#17580#17630#0" expanded="true" />
+                <element signature="e#17668#17725#0" expanded="true" />
+                <element signature="e#17801#17826#0" expanded="true" />
+                <element signature="e#17938#17974#0" expanded="true" />
+                <element signature="e#18249#18265#0" expanded="true" />
+                <element signature="e#18379#18404#0" expanded="true" />
+                <element signature="e#18623#18652#0" expanded="true" />
+                <element signature="e#19265#19281#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -282,6 +421,15 @@
       <find>BluetoothDe</find>
       <find>addDevice</find>
       <find>mLeDevices</find>
+      <find>TODO</find>
+      <find>Arduino</find>
+      <find>mBluetoothLeService</find>
+      <find>data</find>
+      <find>mDataField</find>
+      <find>data_value</find>
+      <find>mBluetoothLe</find>
+      <find>.equal</find>
+      <find>connect</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1947,8 +2095,10 @@
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/SampleGattAttributes.java" />
         <option value="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Application/build.gradle" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java" />
+        <option value="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/Application/src/main/res/layout/gatt_services_characteristics.xml" />
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java" />
       </list>
     </option>
   </component>
@@ -2018,6 +2168,92 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-BluetoothLeGatt-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-BluetoothLeGatt-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-BluetoothLeGatt-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-BluetoothLeGatt-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-BluetoothLeGatt-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-BluetoothLeGatt-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2162,7 +2398,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1548202650656" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1548211679471" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2210,7 +2446,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1548202650656" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1548211679471" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2393,7 +2629,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1548202650659" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1548211679472" />
       </method>
     </configuration>
     <list size="1">
@@ -2432,7 +2668,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1280" height="1384" extended-state="0" />
+    <frame x="0" y="28" width="1280" height="1384" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2445,12 +2681,12 @@
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32895815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980457" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32895815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32813781" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2467,6 +2703,39 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32895815" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980457" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32895815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -2476,78 +2745,84 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java</url>
-          <line>350</line>
+          <line>413</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java</url>
-          <line>87</line>
+          <line>89</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java</url>
-          <line>99</line>
+          <line>101</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java</url>
-          <line>115</line>
+          <line>117</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java</url>
-          <line>149</line>
+          <line>151</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java</url>
-          <line>165</line>
+          <line>167</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java</url>
-          <line>178</line>
+          <line>180</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java</url>
-          <line>240</line>
+          <line>246</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java</url>
-          <line>266</line>
+          <line>272</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java</url>
-          <line>188</line>
+          <line>210</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java</url>
+          <line>316</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java</url>
-          <line>200</line>
+          <line>202</line>
           <properties field="mLeDevices" class="com.example.android.bluetoothlegatt.DeviceScanActivity.LeDeviceListAdapter" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java</url>
-          <line>281</line>
-          <properties field="deviceName" class="com.example.android.bluetoothlegatt.DeviceScanActivity.ViewHolder" />
+          <line>287</line>
+          <properties field="deviceName" class="com.example.android.bluetoothlegatt.ViewHolder" />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2578,7 +2853,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="e#1257#1287#0" expanded="true" />
+            <element signature="e#3132#3149#0" expanded="true" />
+            <element signature="e#3858#3871#0" expanded="true" />
+            <element signature="e#4205#4219#0" expanded="true" />
+            <element signature="e#4555#4572#0" expanded="true" />
+            <element signature="e#5325#5339#0" expanded="true" />
+            <element signature="e#5676#5692#0" expanded="true" />
+            <element signature="e#6028#6043#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2608,25 +2892,36 @@
         <state relative-caret-position="1386">
           <caret line="114" column="115" lean-forward="false" selection-start-line="114" selection-start-column="102" selection-end-line="114" selection-end-column="115" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2651#2691#0" expanded="true" />
-            <element signature="e#4314#5435#0" expanded="true" />
-            <element signature="e#4624#4642#0" expanded="true" />
-            <element signature="e#4845#4866#0" expanded="true" />
-            <element signature="e#5434#5435#0" expanded="true" />
-            <element signature="e#5826#7518#0" expanded="true" />
-            <element signature="e#7517#7518#0" expanded="true" />
-            <element signature="e#7651#7667#0" expanded="true" />
-            <element signature="e#10512#10660#0" expanded="true" />
-            <element signature="e#10659#10660#0" expanded="true" />
-            <element signature="e#14977#15027#0" expanded="true" />
-            <element signature="e#15065#15122#0" expanded="true" />
-            <element signature="e#15198#15223#0" expanded="true" />
-            <element signature="e#15335#15371#0" expanded="true" />
-            <element signature="e#15646#15662#0" expanded="true" />
-            <element signature="e#15776#15801#0" expanded="true" />
-            <element signature="e#16020#16049#0" expanded="true" />
-            <element signature="e#16683#16699#0" expanded="true" />
+            <element signature="e#3338#3378#0" expanded="true" />
+            <element signature="e#5001#6101#0" expanded="true" />
+            <element signature="e#5311#5329#0" expanded="true" />
+            <element signature="e#5532#5553#0" expanded="true" />
+            <element signature="e#6100#6101#0" expanded="true" />
+            <element signature="e#6492#8184#0" expanded="true" />
+            <element signature="e#8183#8184#0" expanded="true" />
+            <element signature="e#8317#8333#0" expanded="true" />
+            <element signature="e#9806#9951#0" expanded="true" />
+            <element signature="e#9950#9951#0" expanded="true" />
+            <element signature="e#9987#10134#0" expanded="true" />
+            <element signature="e#10133#10134#0" expanded="true" />
+            <element signature="e#10173#10323#0" expanded="true" />
+            <element signature="e#10322#10323#0" expanded="true" />
+            <element signature="e#10359#10506#0" expanded="true" />
+            <element signature="e#10505#10506#0" expanded="true" />
+            <element signature="e#10544#10693#0" expanded="true" />
+            <element signature="e#10692#10693#0" expanded="true" />
+            <element signature="e#10730#10878#0" expanded="true" />
+            <element signature="e#10877#10878#0" expanded="true" />
+            <element signature="e#13117#13265#0" expanded="true" />
+            <element signature="e#13264#13265#0" expanded="true" />
+            <element signature="e#17580#17630#0" expanded="true" />
+            <element signature="e#17668#17725#0" expanded="true" />
+            <element signature="e#17801#17826#0" expanded="true" />
+            <element signature="e#17938#17974#0" expanded="true" />
+            <element signature="e#18249#18265#0" expanded="true" />
+            <element signature="e#18379#18404#0" expanded="true" />
+            <element signature="e#18623#18652#0" expanded="true" />
+            <element signature="e#19265#19281#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2646,7 +2941,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="e#1257#1287#0" expanded="true" />
+            <element signature="e#3132#3149#0" expanded="true" />
+            <element signature="e#3858#3871#0" expanded="true" />
+            <element signature="e#4205#4219#0" expanded="true" />
+            <element signature="e#4555#4572#0" expanded="true" />
+            <element signature="e#5325#5339#0" expanded="true" />
+            <element signature="e#5676#5692#0" expanded="true" />
+            <element signature="e#6028#6043#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2666,25 +2970,36 @@
         <state relative-caret-position="5652">
           <caret line="353" column="27" lean-forward="false" selection-start-line="353" selection-start-column="27" selection-end-line="353" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2651#2691#0" expanded="true" />
-            <element signature="e#4314#5435#0" expanded="true" />
-            <element signature="e#4624#4642#0" expanded="true" />
-            <element signature="e#4845#4866#0" expanded="true" />
-            <element signature="e#5434#5435#0" expanded="true" />
-            <element signature="e#5826#7518#0" expanded="true" />
-            <element signature="e#7517#7518#0" expanded="true" />
-            <element signature="e#7651#7667#0" expanded="true" />
-            <element signature="e#10512#10660#0" expanded="true" />
-            <element signature="e#10659#10660#0" expanded="true" />
-            <element signature="e#14977#15027#0" expanded="true" />
-            <element signature="e#15065#15122#0" expanded="true" />
-            <element signature="e#15198#15223#0" expanded="true" />
-            <element signature="e#15335#15371#0" expanded="true" />
-            <element signature="e#15646#15662#0" expanded="true" />
-            <element signature="e#15776#15801#0" expanded="true" />
-            <element signature="e#16020#16049#0" expanded="true" />
-            <element signature="e#16683#16699#0" expanded="true" />
+            <element signature="e#3338#3378#0" expanded="true" />
+            <element signature="e#5001#6101#0" expanded="true" />
+            <element signature="e#5311#5329#0" expanded="true" />
+            <element signature="e#5532#5553#0" expanded="true" />
+            <element signature="e#6100#6101#0" expanded="true" />
+            <element signature="e#6492#8184#0" expanded="true" />
+            <element signature="e#8183#8184#0" expanded="true" />
+            <element signature="e#8317#8333#0" expanded="true" />
+            <element signature="e#9806#9951#0" expanded="true" />
+            <element signature="e#9950#9951#0" expanded="true" />
+            <element signature="e#9987#10134#0" expanded="true" />
+            <element signature="e#10133#10134#0" expanded="true" />
+            <element signature="e#10173#10323#0" expanded="true" />
+            <element signature="e#10322#10323#0" expanded="true" />
+            <element signature="e#10359#10506#0" expanded="true" />
+            <element signature="e#10505#10506#0" expanded="true" />
+            <element signature="e#10544#10693#0" expanded="true" />
+            <element signature="e#10692#10693#0" expanded="true" />
+            <element signature="e#10730#10878#0" expanded="true" />
+            <element signature="e#10877#10878#0" expanded="true" />
+            <element signature="e#13117#13265#0" expanded="true" />
+            <element signature="e#13264#13265#0" expanded="true" />
+            <element signature="e#17580#17630#0" expanded="true" />
+            <element signature="e#17668#17725#0" expanded="true" />
+            <element signature="e#17801#17826#0" expanded="true" />
+            <element signature="e#17938#17974#0" expanded="true" />
+            <element signature="e#18249#18265#0" expanded="true" />
+            <element signature="e#18379#18404#0" expanded="true" />
+            <element signature="e#18623#18652#0" expanded="true" />
+            <element signature="e#19265#19281#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2725,7 +3040,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="e#1257#1287#0" expanded="true" />
+            <element signature="e#3132#3149#0" expanded="true" />
+            <element signature="e#3858#3871#0" expanded="true" />
+            <element signature="e#4205#4219#0" expanded="true" />
+            <element signature="e#4555#4572#0" expanded="true" />
+            <element signature="e#5325#5339#0" expanded="true" />
+            <element signature="e#5676#5692#0" expanded="true" />
+            <element signature="e#6028#6043#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2745,25 +3069,36 @@
         <state relative-caret-position="5652">
           <caret line="353" column="27" lean-forward="true" selection-start-line="353" selection-start-column="27" selection-end-line="353" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2651#2691#0" expanded="true" />
-            <element signature="e#4314#5435#0" expanded="true" />
-            <element signature="e#4624#4642#0" expanded="true" />
-            <element signature="e#4845#4866#0" expanded="true" />
-            <element signature="e#5434#5435#0" expanded="true" />
-            <element signature="e#5826#7518#0" expanded="true" />
-            <element signature="e#7517#7518#0" expanded="true" />
-            <element signature="e#7651#7667#0" expanded="true" />
-            <element signature="e#10512#10660#0" expanded="true" />
-            <element signature="e#10659#10660#0" expanded="true" />
-            <element signature="e#14977#15027#0" expanded="true" />
-            <element signature="e#15065#15122#0" expanded="true" />
-            <element signature="e#15198#15223#0" expanded="true" />
-            <element signature="e#15335#15371#0" expanded="true" />
-            <element signature="e#15646#15662#0" expanded="true" />
-            <element signature="e#15776#15801#0" expanded="true" />
-            <element signature="e#16020#16049#0" expanded="true" />
-            <element signature="e#16683#16699#0" expanded="true" />
+            <element signature="e#3338#3378#0" expanded="true" />
+            <element signature="e#5001#6101#0" expanded="true" />
+            <element signature="e#5311#5329#0" expanded="true" />
+            <element signature="e#5532#5553#0" expanded="true" />
+            <element signature="e#6100#6101#0" expanded="true" />
+            <element signature="e#6492#8184#0" expanded="true" />
+            <element signature="e#8183#8184#0" expanded="true" />
+            <element signature="e#8317#8333#0" expanded="true" />
+            <element signature="e#9806#9951#0" expanded="true" />
+            <element signature="e#9950#9951#0" expanded="true" />
+            <element signature="e#9987#10134#0" expanded="true" />
+            <element signature="e#10133#10134#0" expanded="true" />
+            <element signature="e#10173#10323#0" expanded="true" />
+            <element signature="e#10322#10323#0" expanded="true" />
+            <element signature="e#10359#10506#0" expanded="true" />
+            <element signature="e#10505#10506#0" expanded="true" />
+            <element signature="e#10544#10693#0" expanded="true" />
+            <element signature="e#10692#10693#0" expanded="true" />
+            <element signature="e#10730#10878#0" expanded="true" />
+            <element signature="e#10877#10878#0" expanded="true" />
+            <element signature="e#13117#13265#0" expanded="true" />
+            <element signature="e#13264#13265#0" expanded="true" />
+            <element signature="e#17580#17630#0" expanded="true" />
+            <element signature="e#17668#17725#0" expanded="true" />
+            <element signature="e#17801#17826#0" expanded="true" />
+            <element signature="e#17938#17974#0" expanded="true" />
+            <element signature="e#18249#18265#0" expanded="true" />
+            <element signature="e#18379#18404#0" expanded="true" />
+            <element signature="e#18623#18652#0" expanded="true" />
+            <element signature="e#19265#19281#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2775,17 +3110,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/actionbar_indeterminate_progress.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2827,71 +3151,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/SampleGattAttributes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/listitem_device.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/gatt_services_characteristics.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-27/android.jar!/android/bluetooth/BluetoothManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3413">
-          <caret line="351" column="39" lean-forward="false" selection-start-line="351" selection-start-column="39" selection-end-line="351" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2651#2691#0" expanded="true" />
-            <element signature="e#4314#5435#0" expanded="true" />
-            <element signature="e#4624#4642#0" expanded="true" />
-            <element signature="e#4845#4866#0" expanded="true" />
-            <element signature="e#5434#5435#0" expanded="true" />
-            <element signature="e#5826#7518#0" expanded="true" />
-            <element signature="e#7517#7518#0" expanded="true" />
-            <element signature="e#7651#7667#0" expanded="true" />
-            <element signature="e#10512#10660#0" expanded="true" />
-            <element signature="e#10659#10660#0" expanded="true" />
-            <element signature="e#14977#15027#0" expanded="true" />
-            <element signature="e#15065#15122#0" expanded="true" />
-            <element signature="e#15198#15223#0" expanded="true" />
-            <element signature="e#15335#15371#0" expanded="true" />
-            <element signature="e#15646#15662#0" expanded="true" />
-            <element signature="e#15776#15801#0" expanded="true" />
-            <element signature="e#16020#16049#0" expanded="true" />
-            <element signature="e#16683#16699#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2911,13 +3175,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/actionbar_indeterminate_progress.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/listitem_device.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/gatt_services_characteristics.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="134" column="45" lean-forward="false" selection-start-line="134" selection-start-column="45" selection-end-line="134" selection-end-column="45" />
+          <folding>
+            <element signature="e#1257#1287#0" expanded="true" />
+            <element signature="e#3132#3149#0" expanded="true" />
+            <element signature="e#3858#3871#0" expanded="true" />
+            <element signature="e#4205#4219#0" expanded="true" />
+            <element signature="e#4555#4572#0" expanded="true" />
+            <element signature="e#5325#5339#0" expanded="true" />
+            <element signature="e#5676#5692#0" expanded="true" />
+            <element signature="e#6028#6043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="58" column="53" lean-forward="true" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+        <state relative-caret-position="351">
+          <caret line="219" column="9" lean-forward="false" selection-start-line="219" selection-start-column="9" selection-end-line="219" selection-end-column="9" />
           <folding>
-            <element signature="e#6988#7249#0" expanded="true" />
-            <element signature="e#7248#7249#0" expanded="true" />
+            <element signature="e#7156#7417#0" expanded="true" />
+            <element signature="e#7416#7417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/SampleGattAttributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="65" column="63" lean-forward="true" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
+          <folding>
+            <element signature="e#3338#3378#0" expanded="true" />
+            <element signature="e#5001#6101#0" expanded="true" />
+            <element signature="e#5311#5329#0" expanded="true" />
+            <element signature="e#5532#5553#0" expanded="true" />
+            <element signature="e#6100#6101#0" expanded="true" />
+            <element signature="e#6492#8184#0" expanded="true" />
+            <element signature="e#8183#8184#0" expanded="true" />
+            <element signature="e#8317#8333#0" expanded="true" />
+            <element signature="e#9806#9951#0" expanded="true" />
+            <element signature="e#9950#9951#0" expanded="true" />
+            <element signature="e#9987#10134#0" expanded="true" />
+            <element signature="e#10133#10134#0" expanded="true" />
+            <element signature="e#10173#10323#0" expanded="true" />
+            <element signature="e#10322#10323#0" expanded="true" />
+            <element signature="e#10359#10506#0" expanded="true" />
+            <element signature="e#10505#10506#0" expanded="true" />
+            <element signature="e#10544#10693#0" expanded="true" />
+            <element signature="e#10692#10693#0" expanded="true" />
+            <element signature="e#10730#10878#0" expanded="true" />
+            <element signature="e#10877#10878#0" expanded="true" />
+            <element signature="e#13117#13265#0" expanded="true" />
+            <element signature="e#13264#13265#0" expanded="true" />
+            <element signature="e#17580#17630#0" expanded="true" />
+            <element signature="e#17668#17725#0" expanded="true" />
+            <element signature="e#17801#17826#0" expanded="true" />
+            <element signature="e#17938#17974#0" expanded="true" />
+            <element signature="e#18249#18265#0" expanded="true" />
+            <element signature="e#18379#18404#0" expanded="true" />
+            <element signature="e#18623#18652#0" expanded="true" />
+            <element signature="e#19265#19281#0" expanded="true" />
           </folding>
         </state>
       </provider>

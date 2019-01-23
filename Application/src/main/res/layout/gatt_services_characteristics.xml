@@ -65,6 +65,87 @@
                   android:text="@string/no_data"
                   android:textSize="18sp"/>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/gas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#33cc33"
+                android:text="@string/gas"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/stop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#cc0000"
+                android:text="@string/stop"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/reverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#ffcc00"
+                android:text="@string/reverse"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/secondView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/left"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/left"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"/>
+
+            <Button
+                android:id="@+id/center"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/center"
+                android:layout_alignParentRight="true"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/right"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/right"
+                android:layout_alignParentRight="true"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
     <ExpandableListView android:id="@+id/gatt_services_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>

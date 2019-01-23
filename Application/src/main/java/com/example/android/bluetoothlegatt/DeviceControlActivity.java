@@ -18,6 +18,7 @@ package com.example.android.bluetoothlegatt;
 
 import android.Manifest;
 import android.app.Activity;
+import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
 import android.content.BroadcastReceiver;
@@ -35,6 +36,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
@@ -45,6 +47,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
+
+import static com.example.android.bluetoothlegatt.SampleGattAttributes.UUID_BLE_UART;
 
 /**
  * For a given BLE device, this Activity provides the user interface to connect, display data,
@@ -57,9 +61,21 @@ public class DeviceControlActivity extends Activity {
 
     public static final String EXTRAS_DEVICE_NAME = "DEVICE_NAME";
     public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
+    public static final String COMMAND_ARDUINO_GO = "g\n";
+    public static final String COMMAND_ARDUINO_STOP = "s\n";
+    public static final String COMMAND_ARDUINO_REVERSE = "b\n";
+    public static final String COMMAND_ARDUINO_LEFT = "l\n";
+    public static final String COMMAND_ARDUINO_CENTER = "c\n";
+    public static final String COMMAND_ARDUINO_RIGHT = "r\n";
 
     private static final int MY_PERMISSIONS_REQUEST_ACCESS_COARSE_LOCATION = 1; //unique value
 
+    private Button mGo;
+    private Button mStop;
+    private Button mReverse;
+    private Button mLeft;
+    private Button mCenter;
+    private Button mRight;
     private TextView mConnectionState;
     private TextView mDataField;
     private String mDeviceName;
@@ -119,7 +135,7 @@ public class DeviceControlActivity extends Activity {
                 clearUI();
             } else if (BluetoothLeService.ACTION_GATT_SERVICES_DISCOVERED.equals(action)) {
                 // Show all the supported services and characteristics on the user interface.
-                findGattServices(mBluetoothLeService.getSupportedGattServices(), SampleGattAttributes.UUID_BLE_UART);
+                findGattServices(mBluetoothLeService.getSupportedGattServices(), UUID_BLE_UART);
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
                 displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA));
             }
@@ -182,11 +198,48 @@ public class DeviceControlActivity extends Activity {
         mGattServicesList.setOnChildClickListener(servicesListClickListner);
         mConnectionState = (TextView) findViewById(R.id.connection_state);
         mDataField = (TextView) findViewById(R.id.data_value);
+        mGo = (Button) findViewById(R.id.gas);
+        mStop = (Button) findViewById(R.id.stop);
+        mReverse = (Button) findViewById(R.id.reverse);
+        mLeft = (Button) findViewById(R.id.left);
+        mCenter = (Button) findViewById(R.id.center);
+        mRight = (Button) findViewById(R.id.right);
 
         getActionBar().setTitle(mDeviceName);
         getActionBar().setDisplayHomeAsUpEnabled(true);
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
+
+        mGo.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                sendToArduino(COMMAND_ARDUINO_GO);
+            }
+        });
+        mStop.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                sendToArduino(COMMAND_ARDUINO_STOP);
+            }
+        });
+        mReverse.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                sendToArduino(COMMAND_ARDUINO_REVERSE);
+            }
+        });
+        mLeft.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                sendToArduino(COMMAND_ARDUINO_LEFT);
+            }
+        });
+        mCenter.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                sendToArduino(COMMAND_ARDUINO_CENTER);
+            }
+        });
+        mRight.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                sendToArduino(COMMAND_ARDUINO_RIGHT);
+            }
+        });
     }
 
     @Override
@@ -225,6 +278,16 @@ public class DeviceControlActivity extends Activity {
         return true;
     }
 
+    public boolean sendToArduino(String command) {
+        mGattCharacteristic = new BluetoothGattCharacteristic(UUID_BLE_UART, BluetoothGattCharacteristic.PROPERTY_NOTIFY, BluetoothGattCharacteristic.PERMISSION_WRITE);
+        mGattCharacteristic.setValue(command);
+        mBluetoothLeService.setCharacteristicNotification(mGattCharacteristic,true);
+        Toast.makeText(this, "Sending command: " + command,
+                Toast.LENGTH_SHORT).show();
+        return true;
+    }
+
+    //TODO switch to driving activity?
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {
@@ -252,7 +315,7 @@ public class DeviceControlActivity extends Activity {
 
     private void displayData(String data) {
         if (data != null) {
-            //mDataField.setText(data);
+            mDataField.setText(data);
             Toast.makeText(this, "RFID: " + data,
                     Toast.LENGTH_SHORT).show();
         }
@@ -348,7 +411,7 @@ public class DeviceControlActivity extends Activity {
             ArrayList<BluetoothGattCharacteristic> charas =
                     new ArrayList<BluetoothGattCharacteristic>();
 
-            if (gattService.getUuid() == SampleGattAttributes.UUID_BLE_UART) {
+            if (gattService.getUuid() == UUID_BLE_UART) {
                 currentServiceData.put(
                         LIST_NAME, SampleGattAttributes.lookup(uuid.toString(), unknownServiceString));
                 currentServiceData.put(LIST_UUID, uuid.toString());
@@ -370,7 +433,6 @@ public class DeviceControlActivity extends Activity {
             mGattCharacteristics.add(charas);
             gattCharacteristicData.add(gattCharacteristicGroupData);
         }
-        //TODO Adjust UI to display only our Arduino
         SimpleExpandableListAdapter gattServiceAdapter = new SimpleExpandableListAdapter(
                 this,
                 gattServiceData,
