@@ -16,6 +16,7 @@
 
 package com.example.android.bluetoothlegatt;
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.ListActivity;
 import android.bluetooth.BluetoothAdapter;
@@ -26,6 +27,8 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v13.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -46,6 +49,7 @@ public class DeviceScanActivity extends ListActivity {
     private BluetoothAdapter mBluetoothAdapter;
     private boolean mScanning;
     private Handler mHandler;
+    private static final String OUR_MAC_ADDRESS = "4C:3F:D3:02:AF:5F"; // Backup 4C:3F:D3:02:AB:AB
 
     private static final int REQUEST_ENABLE_BT = 1;
     // Stops scanning after 10 seconds.
@@ -56,6 +60,19 @@ public class DeviceScanActivity extends ListActivity {
         super.onCreate(savedInstanceState);
         getActionBar().setTitle(R.string.title_devices);
         mHandler = new Handler();
+        //Toast.makeText(this, "Device Scan On Create", Toast.LENGTH_SHORT).show();
+
+
+        int permissionCheck = ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION);
+        if (permissionCheck != PackageManager.PERMISSION_GRANTED){
+            if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.ACCESS_FINE_LOCATION)){
+                Toast.makeText(this, "The permission to get BLE location data is required", Toast.LENGTH_SHORT).show();
+            }else{
+                requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+            }
+        }else{
+            Toast.makeText(this, "Location permissions already granted", Toast.LENGTH_SHORT).show();
+        }
 
         // Use this check to determine whether BLE is supported on the device.  Then you can
         // selectively disable BLE-related features.
@@ -191,7 +208,7 @@ public class DeviceScanActivity extends ListActivity {
         }
 
         public void addDevice(BluetoothDevice device) {
-            if(!mLeDevices.contains(device)) {
+            if( (!mLeDevices.contains(device)) && (device.getAddress().equals(OUR_MAC_ADDRESS)) ) {
                 mLeDevices.add(device);
             }
         }

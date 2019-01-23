@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Tue Jan 22 09:16:21 MST 2019
-0.baseType=DIRECTORY
-0.base=/users/guest/j/jasontd/Downloads/android-BluetoothLeGatt-master/Application/build/intermediates/transforms/dexMerger/debug/0
-0.path=classes.dex
-0.set=DEX
-count=1

@@ -16,6 +16,7 @@
 
 package com.example.android.bluetoothlegatt;
 
+import android.Manifest;
 import android.app.Activity;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
@@ -25,8 +26,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.support.v13.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -36,6 +40,7 @@ import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.security.Permission;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -52,6 +57,8 @@ public class DeviceControlActivity extends Activity {
 
     public static final String EXTRAS_DEVICE_NAME = "DEVICE_NAME";
     public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
+
+    private static final int MY_PERMISSIONS_REQUEST_ACCESS_COARSE_LOCATION = 1; //unique value
 
     private TextView mConnectionState;
     private TextView mDataField;
@@ -163,6 +170,8 @@ public class DeviceControlActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gatt_services_characteristics);
 
+        //Toast.makeText(this, "Device Control On Create", Toast.LENGTH_SHORT).show();
+
         final Intent intent = getIntent();
         mDeviceName = intent.getStringExtra(EXTRAS_DEVICE_NAME);
         mDeviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
@@ -253,7 +262,7 @@ public class DeviceControlActivity extends Activity {
     // Demonstrates how to iterate through the supported GATT Services/Characteristics.
     // In this sample, we populate the data structure that is bound to the ExpandableListView
     // on the UI.
-    private void displayGattServices(List<BluetoothGattService> gattServices) {
+    /*private void displayGattServices(List<BluetoothGattService> gattServices) {
         if (gattServices == null) return;
         String uuid = null;
         String unknownServiceString = getResources().getString(R.string.unknown_service);
@@ -305,7 +314,7 @@ public class DeviceControlActivity extends Activity {
                 new int[] { android.R.id.text1, android.R.id.text2 }
         );
         mGattServicesList.setAdapter(gattServiceAdapter);
-    }
+    }*/
 
     private static IntentFilter makeGattUpdateIntentFilter() {
         final IntentFilter intentFilter = new IntentFilter();
@@ -332,11 +341,6 @@ public class DeviceControlActivity extends Activity {
         // Loops through available GATT Services.
         for (BluetoothGattService gattService : gattServices) {
             HashMap<String, String> currentServiceData = new HashMap<String, String>();
-            currentServiceData.put(
-                    LIST_NAME, SampleGattAttributes.lookup(uuid.toString(), unknownServiceString));
-            currentServiceData.put(LIST_UUID, uuid.toString());
-            gattServiceData.add(currentServiceData);
-
             ArrayList<HashMap<String, String>> gattCharacteristicGroupData =
                     new ArrayList<HashMap<String, String>>();
             List<BluetoothGattCharacteristic> gattCharacteristics =
@@ -344,15 +348,24 @@ public class DeviceControlActivity extends Activity {
             ArrayList<BluetoothGattCharacteristic> charas =
                     new ArrayList<BluetoothGattCharacteristic>();
 
-            // Loops through available Characteristics.
-            for (BluetoothGattCharacteristic gattCharacteristic : gattCharacteristics) {
-                charas.add(gattCharacteristic);
-                HashMap<String, String> currentCharaData = new HashMap<String, String>();
-                uuid = gattCharacteristic.getUuid();
-                currentCharaData.put(
-                        LIST_NAME, SampleGattAttributes.lookup(uuid.toString(), unknownCharaString));
-                currentCharaData.put(LIST_UUID, uuid.toString());
-                gattCharacteristicGroupData.add(currentCharaData);
+            if (gattService.getUuid() == SampleGattAttributes.UUID_BLE_UART) {
+                currentServiceData.put(
+                        LIST_NAME, SampleGattAttributes.lookup(uuid.toString(), unknownServiceString));
+                currentServiceData.put(LIST_UUID, uuid.toString());
+                gattServiceData.add(currentServiceData);
+
+
+                // Loops through available Characteristics.
+                for (BluetoothGattCharacteristic gattCharacteristic : gattCharacteristics) {
+                    charas.add(gattCharacteristic);
+                    HashMap<String, String> currentCharaData = new HashMap<String, String>();
+                    uuid = gattCharacteristic.getUuid();
+
+                    currentCharaData.put(
+                            LIST_NAME, SampleGattAttributes.lookup(uuid.toString(), unknownCharaString));
+                    currentCharaData.put(LIST_UUID, uuid.toString());
+                    gattCharacteristicGroupData.add(currentCharaData);
+                }
             }
             mGattCharacteristics.add(charas);
             gattCharacteristicData.add(gattCharacteristicGroupData);
