@@ -30,6 +30,9 @@ public class SampleGattAttributes {
     //jasontd Add a definition for the characteristic’s UUID in SampleGattAttributes
     public static String BLE_UART = "0000ffe1-0000-1000-8000-00805f9b34fb";
     public final static UUID UUID_BLE_UART = UUID.fromString(BLE_UART);
+    public static String BLE_UART_SERVICE = "0000ffe0-0000-1000-8000-00805f9b34fb";
+    public final static UUID UUID_BLE_SERVICE = UUID.fromString(BLE_UART_SERVICE);
+
     //jasontd
 
     static {

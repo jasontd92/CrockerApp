@@ -211,9 +211,9 @@ public class DeviceScanActivity extends ListActivity {
 
         public void addDevice(BluetoothDevice device) {
             if(!mLeDevices.contains(device) ) {
-                //if ((device.getAddress().equals(OUR_MAC_ADDRESS)) || (device.getAddress().equals(OUR_BACKUP_MAC_ADDRESS))) {
+                if ((device.getAddress().equals(OUR_MAC_ADDRESS)) || (device.getAddress().equals(OUR_BACKUP_MAC_ADDRESS))) {
                 //if (device.getAddress().equals(TEST_MAC_ADDRESS)){
-                if (mLeDevices.size() <= 1){
+                //if (mLeDevices.size() <= 1){
                     mLeDevices.add(device);
                 }
             }

@@ -282,6 +282,15 @@ public class BluetoothLeService extends Service {
         mBluetoothGatt.readCharacteristic(characteristic);
     }
 
+    public boolean writeCharacteristic(BluetoothGattCharacteristic characteristic) {
+        if (mBluetoothAdapter == null || mBluetoothGatt == null) {
+            Log.w(TAG, "BluetoothAdapter not initialized");
+            return false;
+        }
+        String data = new String();
+        boolean success = mBluetoothGatt.writeCharacteristic(characteristic);
+        return success;
+    }
     /**
      * Enables or disables notification on a give characteristic.
      *

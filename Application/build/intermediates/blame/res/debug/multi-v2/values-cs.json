@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/users/guest/j/jasontd/Downloads/android-BluetoothLeGatt-master/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml",
+            "outputFile": "C:\\Users\\drape\\OneDrive\\Documents\\MyAndroidProjects\\CrockerApp\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-cs\\values-cs.xml",
             "map": [
                 {
-                    "source": "/users/guest/j/jasontd/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/8afb00c78e03b60e236bacd2fdedd0ac/res/values-cs/values-cs.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,212,314,423,509,614,731,812,893,977,1081,1190,1289,1395,1505,1612,1775,1873",
-                        "endColumns": "106,101,108,85,104,116,80,80,83,103,108,98,105,109,106,162,97,81",
-                        "endOffsets": "207,309,418,504,609,726,807,888,972,1076,1185,1284,1390,1500,1607,1770,1868,1950"
-                    }
-                },
-                {
-                    "source": "/users/guest/j/jasontd/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/78d57ac1265ebb06c7f97b21a17577b3/res/values-cs/values-cs.xml",
+                    "source": "C:\\Users\\drape\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a7ade91793371e0c1ad16e4d52dc32a7\\res\\values-cs\\values-cs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1955",
                         "endColumns": "100",
                         "endOffsets": "2051"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\drape\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\801245402933d585c8a2ac62ce6c9c7f\\res\\values-cs\\values-cs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,314,423,509,614,731,812,893,977,1081,1190,1289,1395,1505,1612,1775,1873",
+                        "endColumns": "106,101,108,85,104,116,80,80,83,103,108,98,105,109,106,162,97,81",
+                        "endOffsets": "207,309,418,504,609,726,807,888,972,1076,1185,1284,1390,1500,1607,1770,1868,1950"
                     }
                 }
             ]

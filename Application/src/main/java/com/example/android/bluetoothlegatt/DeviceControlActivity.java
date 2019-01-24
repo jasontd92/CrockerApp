@@ -28,6 +28,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.content.pm.PackageManager;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.support.v13.app.ActivityCompat;
@@ -42,12 +43,17 @@ import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.security.Permission;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
 
+import static com.example.android.bluetoothlegatt.SampleGattAttributes.UUID_BLE_SERVICE;
 import static com.example.android.bluetoothlegatt.SampleGattAttributes.UUID_BLE_UART;
 
 /**
@@ -59,14 +65,16 @@ import static com.example.android.bluetoothlegatt.SampleGattAttributes.UUID_BLE_
 public class DeviceControlActivity extends Activity {
     private final static String TAG = DeviceControlActivity.class.getSimpleName();
 
+
     public static final String EXTRAS_DEVICE_NAME = "DEVICE_NAME";
     public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
-    public static final String COMMAND_ARDUINO_GO = "g\n";
-    public static final String COMMAND_ARDUINO_STOP = "s\n";
-    public static final String COMMAND_ARDUINO_REVERSE = "b\n";
-    public static final String COMMAND_ARDUINO_LEFT = "l\n";
-    public static final String COMMAND_ARDUINO_CENTER = "c\n";
-    public static final String COMMAND_ARDUINO_RIGHT = "r\n";
+    private static final String COMMAND_ARDUINO_GO = "g\n";
+    private static final String COMMAND_ARDUINO_STOP = "s\n";
+    private static final String COMMAND_ARDUINO_REVERSE = "b\n";
+    private static final String COMMAND_ARDUINO_LEFT = "l\n";
+    private static final String COMMAND_ARDUINO_CENTER = "c\n";
+    private static final String COMMAND_ARDUINO_RIGHT = "r\n";
+    private static final String API_KEY =  "d9478c6e31a525b5932477e2465119e7";
 
     private static final int MY_PERMISSIONS_REQUEST_ACCESS_COARSE_LOCATION = 1; //unique value
 
@@ -279,11 +287,13 @@ public class DeviceControlActivity extends Activity {
     }
 
     public boolean sendToArduino(String command) {
-        mGattCharacteristic = new BluetoothGattCharacteristic(UUID_BLE_UART, BluetoothGattCharacteristic.PROPERTY_NOTIFY, BluetoothGattCharacteristic.PERMISSION_WRITE);
+        mGattCharacteristic = new BluetoothGattCharacteristic(UUID_BLE_UART, BluetoothGattCharacteristic.PROPERTY_BROADCAST, BluetoothGattCharacteristic.PERMISSION_READ);
         mGattCharacteristic.setValue(command);
-        mBluetoothLeService.setCharacteristicNotification(mGattCharacteristic,true);
+        //mBluetoothLeService.setCharacteristicNotification(mGattCharacteristic,true);
         Toast.makeText(this, "Sending command: " + command,
                 Toast.LENGTH_SHORT).show();
+
+        mBluetoothLeService.writeCharacteristic(mGattCharacteristic);
         return true;
     }
 
@@ -313,13 +323,26 @@ public class DeviceControlActivity extends Activity {
         });
     }
 
+    //TODO: need to move this to AsyncTask?
     private void displayData(String data) {
         if (data != null) {
             mDataField.setText(data);
             Toast.makeText(this, "RFID: " + data,
                     Toast.LENGTH_SHORT).show();
+
+            HttpURLConnection client = null;
+            try {
+                URL url = new URL("52.200.212.149:8080/" + API_KEY + "/" + data);
+                client = (HttpURLConnection) url.openConnection();
+            } catch (MalformedURLException me) {
+                me.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } finally {
+                if (client != null) // Make sure the connection is not null.
+                    client.disconnect();
+            }
         }
-        //TODO modify here for reading RFID from Arduino BLE
     }
 
     // Demonstrates how to iterate through the supported GATT Services/Characteristics.
@@ -410,8 +433,9 @@ public class DeviceControlActivity extends Activity {
                     gattService.getCharacteristics();
             ArrayList<BluetoothGattCharacteristic> charas =
                     new ArrayList<BluetoothGattCharacteristic>();
-
-            if (gattService.getUuid() == UUID_BLE_UART) {
+            UUID service = UUID_BLE_SERVICE;
+            UUID test = gattService.getUuid();
+            if (gattService.getUuid().toString().equals(UUID_BLE_SERVICE.toString())) {
                 currentServiceData.put(
                         LIST_NAME, SampleGattAttributes.lookup(uuid.toString(), unknownServiceString));
                 currentServiceData.put(LIST_UUID, uuid.toString());

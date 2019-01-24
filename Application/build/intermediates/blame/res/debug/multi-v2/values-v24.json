@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/users/guest/j/jasontd/Downloads/android-BluetoothLeGatt-master/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "C:\\Users\\drape\\OneDrive\\Documents\\MyAndroidProjects\\CrockerApp\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "/users/guest/j/jasontd/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/8afb00c78e03b60e236bacd2fdedd0ac/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
-                    }
-                },
-                {
-                    "source": "/users/guest/j/jasontd/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/848ea6c958049b3a3d8bba093ac969ae/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\drape\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\a5e98c87d89bc0665acacc88d1a103c3\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "347,413,474,540",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "408,469,535,602"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\drape\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\801245402933d585c8a2ac62ce6c9c7f\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
                     }
                 }
             ]

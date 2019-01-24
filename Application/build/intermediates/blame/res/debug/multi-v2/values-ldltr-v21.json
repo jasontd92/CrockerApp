@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/users/guest/j/jasontd/Downloads/android-BluetoothLeGatt-master/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "C:\\Users\\drape\\OneDrive\\Documents\\MyAndroidProjects\\CrockerApp\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/users/guest/j/jasontd/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/8afb00c78e03b60e236bacd2fdedd0ac/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "C:\\Users\\drape\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\801245402933d585c8a2ac62ce6c9c7f\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
