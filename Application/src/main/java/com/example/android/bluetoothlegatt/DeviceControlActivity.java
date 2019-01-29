@@ -218,6 +218,12 @@ public class DeviceControlActivity extends Activity {
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
 
+        //auto sync with characteristic
+        BluetoothGattCharacteristic characteristic = mBluetoothLeService.getGattCharacteristic(UUID_BLE_UART);
+        if (!(characteristic == null)) {
+            mBluetoothLeService.readCharacteristic(characteristic);
+        }
+
         mGo.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 sendToArduino(COMMAND_ARDUINO_GO);
@@ -287,7 +293,8 @@ public class DeviceControlActivity extends Activity {
     }
 
     public boolean sendToArduino(String command) {
-        mGattCharacteristic = new BluetoothGattCharacteristic(UUID_BLE_UART, BluetoothGattCharacteristic.PROPERTY_BROADCAST, BluetoothGattCharacteristic.PERMISSION_READ);
+        mGattCharacteristic = mBluetoothLeService.getGattCharacteristic(UUID_BLE_UART);
+        //mGattCharacteristic = new BluetoothGattCharacteristic(UUID_BLE_UART, BluetoothGattCharacteristic.PROPERTY_NOTIFY, BluetoothGattCharacteristic.PERMISSION_READ);
         mGattCharacteristic.setValue(command);
         //mBluetoothLeService.setCharacteristicNotification(mGattCharacteristic,true);
         Toast.makeText(this, "Sending command: " + command,

@@ -35,6 +35,9 @@ import android.util.Log;
 import java.util.List;
 import java.util.UUID;
 
+import static com.example.android.bluetoothlegatt.SampleGattAttributes.UUID_BLE_SERVICE;
+import static com.example.android.bluetoothlegatt.SampleGattAttributes.UUID_BLE_UART;
+
 /**
  * Service for managing connection and data communication with a GATT server hosted on a
  * given Bluetooth LE device.
@@ -126,19 +129,11 @@ public class BluetoothLeService extends Service {
         // This is special handling for the Heart Rate Measurement profile.  Data parsing is
         // carried out as per profile specifications:
         // http://developer.bluetooth.org/gatt/characteristics/Pages/CharacteristicViewer.aspx?u=org.bluetooth.characteristic.heart_rate_measurement.xml
-        if (UUID_HEART_RATE_MEASUREMENT.equals(characteristic.getUuid())) {
+        if (UUID_BLE_UART.equals(characteristic.getUuid())) {
             int flag = characteristic.getProperties();
-            int format = -1;
-            if ((flag & 0x01) != 0) {
-                format = BluetoothGattCharacteristic.FORMAT_UINT16;
-                Log.d(TAG, "Heart rate format UINT16.");
-            } else {
-                format = BluetoothGattCharacteristic.FORMAT_UINT8;
-                Log.d(TAG, "Heart rate format UINT8.");
-            }
-            final int heartRate = characteristic.getIntValue(format, 1);
-            Log.d(TAG, String.format("Received heart rate: %d", heartRate));
-            intent.putExtra(EXTRA_DATA, String.valueOf(heartRate));
+            final byte[] RFID = characteristic.getValue();
+            Log.d(TAG, String.format("Received heart rate: %s", RFID));
+            intent.putExtra(EXTRA_DATA, new String(RFID));
         } else {
             // For all other profiles, writes the data formatted in HEX.
             final byte[] data = characteristic.getValue();
@@ -234,7 +229,7 @@ public class BluetoothLeService extends Service {
         }
         // We want to directly connect to the device, so we are setting the autoConnect
         // parameter to false.
-        mBluetoothGatt = device.connectGatt(this, false, mGattCallback);
+        mBluetoothGatt = device.connectGatt(this, true, mGattCallback);
         Log.d(TAG, "Trying to create a new connection.");
         mBluetoothDeviceAddress = address;
         mConnectionState = STATE_CONNECTING;
@@ -306,12 +301,13 @@ public class BluetoothLeService extends Service {
         mBluetoothGatt.setCharacteristicNotification(characteristic, enabled);
 
         // This is specific to Heart Rate Measurement.
-        if (UUID_HEART_RATE_MEASUREMENT.equals(characteristic.getUuid())) {
+        //if (UUID_BLE_UART.equals(characteristic.getUuid())) {
+        //TODO  maybe try running without writing to descriptor
             BluetoothGattDescriptor descriptor = characteristic.getDescriptor(
-                    UUID.fromString(SampleGattAttributes.CLIENT_CHARACTERISTIC_CONFIG));
+                    UUID.fromString(SampleGattAttributes.BLE_UART));
             descriptor.setValue(BluetoothGattDescriptor.ENABLE_NOTIFICATION_VALUE);
             mBluetoothGatt.writeDescriptor(descriptor);
-        }
+        //}
     }
 
     /**
@@ -324,5 +320,11 @@ public class BluetoothLeService extends Service {
         if (mBluetoothGatt == null) return null;
 
         return mBluetoothGatt.getServices();
+    }
+
+    public BluetoothGattCharacteristic getGattCharacteristic(UUID char_id) {
+        if (mBluetoothGatt == null) return null;
+
+        return mBluetoothGatt.getService(UUID_BLE_SERVICE).getCharacteristic(char_id);
     }
 }
